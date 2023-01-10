@@ -28,7 +28,7 @@ Aplikasi ini dibuat untuk {ganti sendiri}.
 
 ## REQUIREMENTS
 
-The minimum requirement by this project that your Web server supports PHP 8.1.
+The minimum requirement by this project that your Web server supports PHP 8.1 and MariaDB 10.
 
 
 ## WHAT CHANGE?
