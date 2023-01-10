@@ -51,9 +51,19 @@ The minimum requirement by this project that your Web server supports PHP 8.1.
 3. API template ready to use
 
 
-## CONFIGURATION
+## INSTALLATION
 
-### Database
+Install neccesary package :
+
+```
+composer install
+```
+
+Initiate project state, choose project state you want to use, `0` for development, and `1` for production :
+
+```
+php init
+```
 
 Ope file `config/components.php`, and change `dbname`, `username` and `password`, for example:
 
@@ -72,20 +82,6 @@ return [
         ],
     ]
 ];
-```
-
-## INSTALLATION
-
-Install neccesary package :
-
-```
-composer install
-```
-
-Initiate project state, choose project state you want to use, `0` for development, and `1` for production :
-
-```
-php init
 ```
 
 Run migration for RBAC :
